@@ -1,0 +1,590 @@
+{
+  "input": {
+    "dash": "headlines",
+    "geography_choice": "National",
+    "la_choice": "Derby",
+    "link_to_headlines_tab": 0,
+    "link_to_la_tab": 0,
+    "link_to_reasons_tab": 0,
+    "measure_choice": "Overall",
+    "navlistPanel": "dashboard",
+    "region_choice": "East Midlands",
+    "school_choice": "Secondary",
+    "ts_choice": "yeartodate"
+  },
+  "output": {
+    "absence_rates_timeseries_plot": {
+      "x": {
+        "layout": {
+          "margin": {
+            "b": 40,
+            "l": 60,
+            "t": 80,
+            "r": 10
+          },
+          "xaxis": {
+            "domain": [
+              0,
+              1
+            ],
+            "automargin": true,
+            "title": "Week commencing",
+            "tickvals": [
+              "2023-09-11",
+              "2023-09-18",
+              "2023-09-25",
+              "2023-10-02",
+              "2023-10-09",
+              "2023-10-16",
+              "2023-10-30",
+              "2023-11-06",
+              "2023-11-13",
+              "2023-11-20",
+              "2023-11-27",
+              "2023-12-04",
+              "2023-12-11",
+              "2024-01-01",
+              "2024-01-08",
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29",
+              "2024-02-05",
+              "2024-02-19",
+              "2024-02-26",
+              "2024-03-04",
+              "2024-03-11",
+              "2024-03-18",
+              "2024-03-25",
+              "2024-04-15",
+              "2024-04-22",
+              "2024-04-29"
+            ],
+            "zeroline": true,
+            "zerolinewidth": 2,
+            "zerolinecolor": "Grey",
+            "tickmode": "linear",
+            "tick0": "2022-09-12",
+            "dtick": 1209600000
+          },
+          "yaxis": {
+            "domain": [
+              0,
+              1
+            ],
+            "automargin": true,
+            "rangemode": "tozero",
+            "title": "Absence rate (%)",
+            "zeroline": true,
+            "zerolinewidth": 2,
+            "zerolinecolor": "Grey"
+          },
+          "hovermode": "x unified",
+          "legend": {
+            "font": {
+              "size": 11
+            },
+            "orientation": "h",
+            "yanchor": "top",
+            "y": -0.5,
+            "xanchor": "center",
+            "x": 0.5
+          },
+          "title": "Weekly summary of absence rates for secondary<br> state-funded schools at national level",
+          "font": {
+            "family": "arial",
+            "size": 10,
+            "color": "grey"
+          },
+          "showlegend": true
+        },
+        "source": "A",
+        "config": {
+          "modeBarButtonsToAdd": [
+            "hoverclosest",
+            "hovercompare"
+          ],
+          "showSendToCloud": false,
+          "displayModeBar": false
+        },
+        "data": [
+          {
+            "mode": "lines+markers",
+            "type": "scatter",
+            "marker": {
+              "color": "rgba(31,119,180,1)",
+              "line": {
+                "color": "rgba(31,119,180,1)"
+              }
+            },
+            "error_y": {
+              "color": "rgba(31,119,180,1)"
+            },
+            "error_x": {
+              "color": "rgba(31,119,180,1)"
+            },
+            "line": {
+              "color": "rgba(31,119,180,1)"
+            },
+            "xaxis": "x",
+            "yaxis": "y",
+            "frame": null
+          },
+          {
+            "mode": "markers+lines",
+            "type": "scatter",
+            "x": [
+              "2023-09-11",
+              "2023-09-18",
+              "2023-09-25",
+              "2023-10-02",
+              "2023-10-09",
+              "2023-10-16",
+              "2023-10-30",
+              "2023-11-06",
+              "2023-11-13",
+              "2023-11-20",
+              "2023-11-27",
+              "2023-12-04",
+              "2023-12-11",
+              "2024-01-01",
+              "2024-01-08",
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29",
+              "2024-02-05",
+              "2024-02-19",
+              "2024-02-26",
+              "2024-03-04",
+              "2024-03-11",
+              "2024-03-18",
+              "2024-03-25",
+              "2024-04-15",
+              "2024-04-22",
+              "2024-04-29"
+            ],
+            "y": [
+              6.0817323447421101,
+              7.3678797936807499,
+              8.6729019294662102,
+              8.6221533003056106,
+              8.0323883398326696,
+              8.6973865494415499,
+              7.9051871567954803,
+              7.7211169608943404,
+              8.0592852717519694,
+              8.3846862628498808,
+              9.0959031299786108,
+              9.7101627628370704,
+              10.310957062713401,
+              9.3623131787201892,
+              8.1227493901561001,
+              8.9656672609459598,
+              9.5724868155049894,
+              9.4911062858846602,
+              9.9572755578193792,
+              8.5976164600641596,
+              8.5956460935413102,
+              8.8068835630795892,
+              9.5148711398891592,
+              9.5519779180395794,
+              10.462417755339001,
+              8.46154282129649,
+              8.8572462729770898,
+              9.3710117886373503
+            ],
+            "line": {
+              "color": "#12436D"
+            },
+            "marker": {
+              "color": "#12436D",
+              "line": {
+                "color": "rgba(255,127,14,1)"
+              }
+            },
+            "name": "Overall absence rate",
+            "hovertemplate": [
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%"
+            ],
+            "error_y": {
+              "color": "rgba(255,127,14,1)"
+            },
+            "error_x": {
+              "color": "rgba(255,127,14,1)"
+            },
+            "xaxis": "x",
+            "yaxis": "y",
+            "frame": null
+          },
+          {
+            "mode": "markers+lines",
+            "type": "scatter",
+            "x": [
+              "2023-09-11",
+              "2023-09-18",
+              "2023-09-25",
+              "2023-10-02",
+              "2023-10-09",
+              "2023-10-16",
+              "2023-10-30",
+              "2023-11-06",
+              "2023-11-13",
+              "2023-11-20",
+              "2023-11-27",
+              "2023-12-04",
+              "2023-12-11",
+              "2024-01-01",
+              "2024-01-08",
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29",
+              "2024-02-05",
+              "2024-02-19",
+              "2024-02-26",
+              "2024-03-04",
+              "2024-03-11",
+              "2024-03-18",
+              "2024-03-25",
+              "2024-04-15",
+              "2024-04-22",
+              "2024-04-29"
+            ],
+            "y": [
+              3.5311009802903,
+              4.6942599202654698,
+              5.84918261312278,
+              5.7429617656731802,
+              5.1388445943370398,
+              5.3345994598182704,
+              4.7409888686322503,
+              4.7585638884722199,
+              5.1378978666985899,
+              5.4090317707727698,
+              5.8822408823806303,
+              6.2595767380755296,
+              6.4457355759826402,
+              5.40455712706546,
+              4.7761865303062203,
+              5.5390343515142604,
+              6.1413736310246803,
+              6.0627732361473399,
+              6.1572829611666204,
+              4.9887547120643596,
+              5.1458367066151398,
+              5.3738093081168001,
+              5.8540578115583797,
+              5.7783477446591496,
+              6.0246800382926304,
+              4.5267052892529502,
+              5.00660819208756,
+              5.3913038154271398
+            ],
+            "line": {
+              "color": "#28A197"
+            },
+            "marker": {
+              "color": "#28A197",
+              "line": {
+                "color": "rgba(44,160,44,1)"
+              }
+            },
+            "name": "Authorised absence rate",
+            "hovertemplate": [
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%"
+            ],
+            "error_y": {
+              "color": "rgba(44,160,44,1)"
+            },
+            "error_x": {
+              "color": "rgba(44,160,44,1)"
+            },
+            "xaxis": "x",
+            "yaxis": "y",
+            "frame": null
+          },
+          {
+            "mode": "markers+lines",
+            "type": "scatter",
+            "x": [
+              "2023-09-11",
+              "2023-09-18",
+              "2023-09-25",
+              "2023-10-02",
+              "2023-10-09",
+              "2023-10-16",
+              "2023-10-30",
+              "2023-11-06",
+              "2023-11-13",
+              "2023-11-20",
+              "2023-11-27",
+              "2023-12-04",
+              "2023-12-11",
+              "2024-01-01",
+              "2024-01-08",
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29",
+              "2024-02-05",
+              "2024-02-19",
+              "2024-02-26",
+              "2024-03-04",
+              "2024-03-11",
+              "2024-03-18",
+              "2024-03-25",
+              "2024-04-15",
+              "2024-04-22",
+              "2024-04-29"
+            ],
+            "y": [
+              2.5506313644518102,
+              2.6736198734152699,
+              2.8237193163434302,
+              2.8791915346324299,
+              2.8935437454956299,
+              3.3627870896232799,
+              3.1641982881632198,
+              2.9625530724221201,
+              2.9213874050533799,
+              2.9756544920771102,
+              3.2136622475979801,
+              3.4505860247615399,
+              3.8652214867307602,
+              3.9577560516547301,
+              3.34656285984987,
+              3.4266329094316998,
+              3.43111318448031,
+              3.4283330497373199,
+              3.7999925966527601,
+              3.6088617479997902,
+              3.4498093869261699,
+              3.43307425496279,
+              3.6608133283307698,
+              3.7736301733804201,
+              4.4377377170464198,
+              3.9348375320435398,
+              3.8506380808895302,
+              3.9797079732102101
+            ],
+            "line": {
+              "color": "#F46A25"
+            },
+            "marker": {
+              "color": "#F46A25",
+              "line": {
+                "color": "rgba(214,39,40,1)"
+              }
+            },
+            "name": "Unauthorised absence rate",
+            "hovertemplate": [
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%",
+              "%{y:.1f}%"
+            ],
+            "error_y": {
+              "color": "rgba(214,39,40,1)"
+            },
+            "error_x": {
+              "color": "rgba(214,39,40,1)"
+            },
+            "xaxis": "x",
+            "yaxis": "y",
+            "frame": null
+          }
+        ],
+        "highlight": {
+          "on": "plotly_click",
+          "persistent": false,
+          "dynamic": false,
+          "selectize": false,
+          "opacityDim": 0.20000000000000001,
+          "selected": {
+            "opacity": 1
+          },
+          "debounce": 0
+        },
+        "shinyEvents": [
+          "plotly_hover",
+          "plotly_click",
+          "plotly_selected",
+          "plotly_relayout",
+          "plotly_brushed",
+          "plotly_brushing",
+          "plotly_clickannotation",
+          "plotly_doubleclick",
+          "plotly_deselect",
+          "plotly_afterplot",
+          "plotly_sunburstclick"
+        ],
+        "base_url": "https://plot.ly"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "setprototypeof",
+          "version": "0.1",
+          "src": {
+            "href": "setprototypeof-0.1"
+          },
+          "meta": null,
+          "script": "setprototypeof.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "typedarray",
+          "version": "0.1",
+          "src": {
+            "href": "typedarray-0.1"
+          },
+          "meta": null,
+          "script": "typedarray.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "jquery",
+          "version": "3.5.1",
+          "src": {
+            "href": "jquery-3.5.1"
+          },
+          "meta": null,
+          "script": "jquery.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "crosstalk",
+          "version": "1.2.1",
+          "src": {
+            "href": "crosstalk-1.2.1"
+          },
+          "meta": null,
+          "script": "js/crosstalk.min.js",
+          "stylesheet": "css/crosstalk.min.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "plotly-htmlwidgets-css",
+          "version": "2.11.1",
+          "src": {
+            "href": "plotly-htmlwidgets-css-2.11.1"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": "plotly-htmlwidgets.css",
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "plotly-main",
+          "version": "2.11.1",
+          "src": {
+            "href": "plotly-main-2.11.1"
+          },
+          "meta": null,
+          "script": "plotly-latest.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        }
+      ]
+    },
+    "headline_bullet_title_nat": "Headline figures for the year to date - 2023-09-11 to 2024-05-03: secondary state-funded school attendance at national level",
+    "ytd_absence_rate_nat": "• 8.8% of sessions were recorded as absence",
+    "ytd_attendance_rate_nat": "• 91.2% of sessions were recorded as attending",
+    "ytd_illness_rate_nat": "• 4% of sessions were recorded as illness"
+  }
+}
